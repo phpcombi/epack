@@ -1,7 +1,7 @@
 {
     "name": "combi/epack",
     "description": "The extra & embedded pack from Combi Framework",
-    "type": "library, framework",
+    "type": "library",
     "license": "MIT",
     "authors": [
         {
