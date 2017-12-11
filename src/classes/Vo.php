@@ -8,6 +8,5 @@ use Combi\{
 };
 use Combi\Core;
 
-class Vo extends Core\Meta\Struct {
-    protected static $_defaults = [];
+abstract class Vo extends Core\Meta\Struct {
 }
