@@ -7,6 +7,11 @@ use Combi\{
     Runtime as rt
 };
 use Combi\Core;
+use Combi\Core\Meta\Extensions;
 
-abstract class Response extends Core\Meta\Struct {
+abstract class Response extends Core\Meta\Struct
+    implements \ArrayAccess, \JsonSerializable {
+    use Extensions\JsonSerializable,
+        Extensions\ArrayAccess,
+        Extensions\Overloaded;
 }
