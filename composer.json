@@ -1,0 +1,24 @@
+{
+    "name": "combi/epack",
+    "description": "The extra & embedded pack from Combi Framework",
+    "type": "library, framework",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Andares Merigold",
+            "email": "andares@outlook.com"
+        }
+    ],
+    "require": {
+        "combi/core": "dev-master"
+    },
+    "require-dev": {
+        "nette/tester": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {"Combi\\Epack\\": "src/classes/"},
+        "files": [
+            "src/bootstrap.php"
+        ]
+    }
+}
