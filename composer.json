@@ -10,7 +10,7 @@
         }
     ],
     "require": {
-        "combi/core": "dev-master"
+        "combi/core": "0.*"
     },
     "require-dev": {
         "nette/tester": "^2.0"
